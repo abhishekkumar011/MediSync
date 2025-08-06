@@ -23,7 +23,7 @@ function Header() {
   ];
 
   return (
-    <div className="flex justify-between py-4 px-20 rounded shadow-md">
+    <div className="flex justify-between py-4 px-4 md:px-20 rounded shadow-md">
       <div className="flex gap-20 items-center">
         <div className="flex gap-2 items-center">
           <Image alt="logo" src={"/logo.svg"} width={35} height={50} />
